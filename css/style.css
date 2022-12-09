@@ -1,5 +1,4 @@
 body{
-    background-color: blue;
     scroll-behavior: smooth;
 }
 
@@ -14,17 +13,23 @@ body{
 
 .jumbotron {
     background-image: url(../images/profile-picture.jpeg);
+    background-color: #008cb4;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: ghostwhite;
+}
+
+.my-4 {
+    border: 1px solid black;
+    width: 60%;
 }
 
 .display-4{
-    text-align: right;
+    text-align: center;
+    font-weight: 500;
 }
 
 .lead {
-    text-align: right;
+    text-align: center;
 }
 
 /* Work */
@@ -33,3 +38,27 @@ body{
     width: 18rem;
     height: 12rem;
 }
+
+/* Skills */
+.list-group-item {
+    background-color: white;
+}
+.list-group-item {
+   text-align: center;
+   font-weight: bold;
+}
+
+.top-of-the-list {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+/* About me */
+
+.card-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+/* Footer/contact */
