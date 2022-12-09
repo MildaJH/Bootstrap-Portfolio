@@ -5,18 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Milda/Web Developer</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"><img src="images/Logo.jpg" alt="Milda's logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,81 +31,68 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                         aria-expanded="false">
-                        Dropdown
+                        Contact
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">E-mail</a>
+                        <a class="dropdown-item" href="#">GitHub</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">LinkedIn</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
 
     <!-- Hero/Jumbotron -->
 
     <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-            featured content or information.</p>
+        <h1 class="display-4">Milda Jancauskaite</h1>
+        <p class="lead">Front-end web developer</p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
 
     <!-- Work -->
 
-    <div class="container">
+    <div class="container" id="work">
         <div class="row">
             <div class="cardcontainer col-sm-12 col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card" style="width: 18rem">
+                    <img src="images/Prework.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Prework Study Guide</h5>
+                        <p class="card-text">Prework study guide created during Front-end web development bootcamp.</p>
+                        <a href="https://mildajh.github.io/prework-study-guide/" class="btn btn-primary">Visit</a>
                     </div>
                 </div>
             </div>
 
             <div class="cardcontainer col-sm-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/Horiseon2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Horiseon Bootcamp Challenge</h5>
+                        <p class="card-text">Horiseon website review during Bootcamp.</p>
+                        <a href="https://mildajh.github.io/Horiseon-bootcamp-challenge/starter/" class="btn btn-primary">Visit</a>
                     </div>
                 </div>
             </div>
 
             <div class="cardcontainer col-sm-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/First-portfolio.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">First Portfolio</h5>
+                        <p class="card-text">First ever Portfolio created using basic HTML and CSS.</p>
+                        <a href="https://mildajh.github.io/MyPortfolio/starter/" class="btn btn-primary">Visit</a>
                     </div>
                 </div>
             </div>
@@ -108,36 +101,33 @@
         <div class="row">
             <div class="cardcontainer col-sm-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/architecture.jpg" class="card-img-top" alt="Windows of tall building">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Hopefully some progress</h5>
+                        <p class="card-text">Amazing future website that I built.</p>
+                        <a href="https://unsplash.com/photos/MKDd1Lm90iQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="btn btn-primary">Visit</a>
                     </div>
                 </div>
             </div>
 
             <div class="cardcontainer col-sm-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/road2.jpg" class="card-img-top" alt="Road">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">More progress?</h5>
+                        <p class="card-text">Are we there yet?</p>
+                        <a href="https://unsplash.com/photos/3_eCsVBFkDI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="btn btn-primary">Visit</a>
                     </div>
                 </div>
             </div>
 
             <div class="cardcontainer col-sm-12 col-md-6 col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="images/bird.jpg" class="card-img-top" alt="Bird in the jungle">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Something worth looking at?</h5>
+                        <p class="card-text">Finally!</p>
+                        <a href="https://unsplash.com/photos/hPwdajnK3M4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" class="btn btn-primary">Visit</a>
                     </div>
                 </div>
             </div>
@@ -146,50 +136,51 @@
 
     <!-- Skills -->
 
-<ul class="list-group">
-  <li class="list-group-item">A simple default list group item</li>
+    <ul class="list-group" id="skills">
+        <li class="list-group-item">Skills</li>
 
-  <li class="list-group-item list-group-item-primary">A simple primary list group item</li>
-  <li class="list-group-item list-group-item-secondary">A simple secondary list group item</li>
-  <li class="list-group-item list-group-item-success">A simple success list group item</li>
-  <li class="list-group-item list-group-item-danger">A simple danger list group item</li>
-  <li class="list-group-item list-group-item-warning">A simple warning list group item</li>
-  <li class="list-group-item list-group-item-info">A simple info list group item</li>
-  <li class="list-group-item list-group-item-light">A simple light list group item</li>
-  <li class="list-group-item list-group-item-dark">A simple dark list group item</li>
-</ul>
+        <li class="list-group-item list-group-item-primary">A simple primary list group item</li>
+        <li class="list-group-item list-group-item-secondary">A simple secondary list group item</li>
+        <li class="list-group-item list-group-item-success">A simple success list group item</li>
+        <li class="list-group-item list-group-item-danger">A simple danger list group item</li>
+        <li class="list-group-item list-group-item-warning">A simple warning list group item</li>
+        <li class="list-group-item list-group-item-info">A simple info list group item</li>
+        <li class="list-group-item list-group-item-light">A simple light list group item</li>
+        <li class="list-group-item list-group-item-dark">A simple dark list group item</li>
+    </ul>
 
     <!-- About Me-->
 
     <div class="card">
         <div class="card-header">
-          Quote
+            Quote
         </div>
         <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>A well-known quote, contained in a blockquote element.</p>
-            <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-          </blockquote>
+            <blockquote class="blockquote mb-0">
+                <p>A well-known quote, contained in a blockquote element.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+                </footer>
+            </blockquote>
         </div>
-      </div>
-      
+    </div>
+
     <!-- Footer/contact -->
 
     <div class="card">
         <div class="card-header">
-          Featured
+            Featured
         </div>
         <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-          <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary">Left</button>
-            <button type="button" class="btn btn-secondary">Middle</button>
-            <button type="button" class="btn btn-secondary">Right</button>
-          </div>
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary">Left</button>
+                <button type="button" class="btn btn-secondary">Middle</button>
+                <button type="button" class="btn btn-secondary">Right</button>
+            </div>
         </div>
-      </div>
+    </div>
 
 </body>
 

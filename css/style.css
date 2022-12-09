@@ -1,3 +1,35 @@
 body{
     background-color: blue;
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+/* Hero/Jumbotron */
+
+.jumbotron {
+    background-image: url(../images/profile-picture.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: ghostwhite;
+}
+
+.display-4{
+    text-align: right;
+}
+
+.lead {
+    text-align: right;
+}
+
+/* Work */
+
+.card-img-top {
+    width: 18rem;
+    height: 12rem;
 }
