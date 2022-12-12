@@ -48,12 +48,12 @@ body{
 }
 
 .btn-primary {
-    background-color: #48D1CC;
+    background-color: #FCF5E5;
     align-self: center;
     color: black;
 }
 .btn-primary:hover {
-    background-color: blue;
+    background-color: turquoise;
     transform: scale(1.1);
 }
 
@@ -64,7 +64,7 @@ body{
 }
 
 .top-of-the-list {
-    background-color: #48D1CC;
+    background-color: #FCF5E5;
 }
 
 
@@ -95,7 +95,8 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
-    background-color: #48D1CC;
+    background-color: #FCF5E5;
+    border-bottom: #212529 4px double;
 }
 
 /* Footer/contact */
@@ -106,7 +107,8 @@ body{
 }
 
 .btn-secondary {
-    background-color: #48D1CC;
+    background-color: #FCF5E5;
+    color: black;
 }
 
 .btn-secondary:hover {
