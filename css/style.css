@@ -11,7 +11,7 @@ body{
 
 /* Hero/Jumbotron */
 
-.jumbotron {
+  .jumbotron {
     background-image: url(../images/profile-picture.jpeg);
     background-color: #008cb4;
     background-repeat: no-repeat;
@@ -39,10 +39,25 @@ body{
     height: 12rem;
 }
 
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.btn-primary:hover {
+    background-color: #008cb4;
+}
+
 /* Skills */
+
 .list-group-item {
     background-color: white;
 }
+
+.top-of-the-list {
+    background-color: #008cb4;
+}
+
+
 .list-group-item {
    text-align: center;
    font-weight: bold;
@@ -59,6 +74,23 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
+    background-color: #008cb4;
 }
 
 /* Footer/contact */
+
+.footer-card-body {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.btn-secondary {
+    background-color: #008cb4;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.2);
+}
+
+
+
