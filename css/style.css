@@ -12,10 +12,14 @@ body{
 /* Hero/Jumbotron */
 
   .jumbotron {
-    background-image: url(../images/profile-picture.jpeg);
-    background-color: #008cb4;
+    background-image: url(../images/Jumbotron2.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    padding: 6rem 2rem;
+}
+.display-4
+.lead {
+    color: #212529;
 }
 
 .my-4 {
@@ -43,8 +47,14 @@ body{
     transform: scale(1.1);
 }
 
+.btn-primary {
+    background-color: #48D1CC;
+    align-self: center;
+    color: black;
+}
 .btn-primary:hover {
-    background-color: #008cb4;
+    background-color: blue;
+    transform: scale(1.1);
 }
 
 /* Skills */
@@ -54,7 +64,7 @@ body{
 }
 
 .top-of-the-list {
-    background-color: #008cb4;
+    background-color: #48D1CC;
 }
 
 
@@ -68,13 +78,24 @@ body{
     font-size: xx-large;
 }
 
-/* About me */
+
+/* About Me */
+
+.about-me-image {
+    width: 15rem;
+    height: 18rem;
+    align-self: center;
+}
+
+.card-about-me {
+    text-align:center
+}
 
 .card-header {
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
-    background-color: #008cb4;
+    background-color: #48D1CC;
 }
 
 /* Footer/contact */
@@ -85,7 +106,7 @@ body{
 }
 
 .btn-secondary {
-    background-color: #008cb4;
+    background-color: #48D1CC;
 }
 
 .btn-secondary:hover {
