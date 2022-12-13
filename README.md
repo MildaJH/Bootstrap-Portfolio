@@ -12,9 +12,7 @@ N/A
 This website contains my portfolio information including work done before, info about me and my skills as well as contact details. You can get directed to each section through navigation bar. Each button has link attached to either contacts or website. 
 It was designed for usage on mobile devices and computer screens. 
 
-    ```md
-![alt text](assets/images/screenshot.png)
-    ```
+![portfolio screenshot on computer screen](assets/images/Portfolio-screenshot-png.png)
 
 ## License
 
